@@ -1,0 +1,29 @@
+.make-left {
+  display: flex;
+  justify-content: start;
+}
+
+* {
+  margin: 0;
+}
+
+.photo-profile {
+  margin-top: 20%;
+}
+
+
+.profile-slogan {
+  color: azure;
+  text-align: center;
+}
+
+.profile-about-me {
+  color: rgb(243, 243, 243);
+  font-size: 26px;
+}
+
+.img-thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
