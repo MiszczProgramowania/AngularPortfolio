@@ -1,12 +1,13 @@
 .weather-container {
   padding-top: 100px;
-  background-color: rgb(192, 233, 252);
+  background-color: rgb(218, 218, 218);
   height: 100vh;
 }
 
 h1 {
   padding-bottom: 35px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 th {
@@ -16,3 +17,7 @@ th {
 td {
   font-size: 19px;
 }
+
+table {
+  box-shadow: 0 0 6px black;
+} 

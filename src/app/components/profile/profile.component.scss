@@ -10,14 +10,16 @@ img {
 
 
 img {
-  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 6px black;
 }
 
 p {
   padding: 15px;
 }
 
-.profile-container {
+.profile {
   background-color: rgb(231, 223, 223);
+  box-shadow: 0 0 16px rgb(158, 132, 132);
   height: 100vh;
 }
