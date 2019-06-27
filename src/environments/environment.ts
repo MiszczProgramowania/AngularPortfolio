@@ -38,7 +38,7 @@ export const environment = {
 		{
 			imgSrc: 'assets/images/javascript.png',
 			title: 'JavaScript',
-			description: 'Znam podstawy i wykorzystuję do dodania interaktywności stron internetowych.'
+			description: 'Znam podstawy.'
 		},
 		{
 			imgSrc: 'assets/images/angular.png',
