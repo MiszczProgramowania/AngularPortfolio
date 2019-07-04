@@ -4,7 +4,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { ContactComponent } from './components/examples/contact/contact.component';
 import { ExamplesComponent } from './components/examples/examples.component';
 import { SkillsComponent } from './components/examples/skills/skills.component';
-import { WeatherComponent } from './components/examples/weather/weather.component';
 
 const routes: Routes = [
 	{
@@ -19,10 +18,6 @@ const routes: Routes = [
 	{
 		path: 'contact',
 		component: ContactComponent
-	},
-	{
-		path: 'weather',
-		component: WeatherComponent
 	}
 ];
 
