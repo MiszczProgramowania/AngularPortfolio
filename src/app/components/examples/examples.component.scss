@@ -2,6 +2,12 @@
   margin: 0%;
 }
 
+@media (max-width: 600px) {
+  video {
+    display: none;
+  }
+}
+
 video {
   height: 100vh;
 }
