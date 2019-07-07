@@ -1,12 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'bootstrap/dist/css/bootstrap.css';
 
-@media (min-width: 600px) {
-	body {
-		overflow: hidden;
-	}
+body {
+  overflow: hidden;
 }
 
 * {
-	font-family: 'Slabo 27px', serif;
+  font-family: 'Slabo 27px', serif;
+
 }
