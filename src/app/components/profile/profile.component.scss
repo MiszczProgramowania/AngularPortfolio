@@ -1,29 +1,23 @@
-.make-left {
-  display: flex;
-  justify-content: start;
+img {
+
+  height: 85%;
+  width: 85%;
 }
 
-* {
-  margin: 0;
-}
-
-.photo-profile {
-  margin-top: 20%;
+.section-profile {
+  padding: 30px;
 }
 
 
-.profile-slogan {
-  color: azure;
-  text-align: center;
+img {
+  padding: 15px;
 }
 
-.profile-about-me {
-  color: rgb(243, 243, 243);
-  font-size: 26px;
+p {
+  padding: 15px;
 }
 
-.img-thumbnail {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.profile-container {
+  background-color: rgb(231, 223, 223);
+  height: 100vh;
 }

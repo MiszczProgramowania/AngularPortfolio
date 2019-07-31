@@ -1,3 +1,43 @@
-<p>
-  weather works!
-</p>
+<div class="container weather-container">
+  <div>
+    <h1>Prognoza pogody </h1>
+  </div>
+  <table class="table table-sm table-dark">
+    <thead>
+      <tr>
+        <th>Pogoda</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Miasto</th>
+        <td>{{weather.name | nameCity}}</td>
+        <td> </td>
+      </tr>
+      <tr>
+        <th scope="row">Temperatura</th>
+        <td>{{weather.main.temp | kelvinToCelsjusz}}</td>
+        <td>Celsjusza</td>
+      </tr>
+      <tr>
+        <th scope="row">Ciśnienie</th>
+        <td>{{weather.main.pressure | pressure}}</td>
+        <td>hPa</td>
+      </tr>
+      <tr>
+        <th scope="row">Prędkość wiatru</th>
+        <td>{{weather.wind.speed | wind}}</td>
+        <td> km/h</td>
+      </tr>
+      <tr>
+        <th scope="row">zachmurzenie</th>
+        <td>{{weather.clouds.all | clouds}}</td>
+        <td>%</td>
+      </tr>
+      <tr>
+        <th scope="row">Wilgotność:</th>
+        <td>{{weather.main.humidity | humidity}}</td>
+        <td>%</td>
+      </tr>
+    </tbody>
+  </table>
